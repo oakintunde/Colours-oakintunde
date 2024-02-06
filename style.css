@@ -1,0 +1,28 @@
+/* Variables */
+:root {
+    --clr-primary: #260101; /* Main text color */
+    --clr-secondary: #275950; /* Secondary text color */
+    --clr-accent: #ff9800; /* Accent color */
+    --clr-background: #f0f0f0; /* Background color */
+}
+
+:root {
+    /* Secondary background color to differentiate sections */
+    --secondary-background-color: #DBE7C9;
+    /* Secondary text color */
+    --secondary-text-color: #50623A;
+    /* Additional accent color */
+    --accent-color: #50623A;
+}
+
+.section {
+    background-color: var(--secondary-background-color);
+    color: var(--secondary-text-color);
+}
+
+.accent {
+    color: var(--accent-color);
+    /* accent color for various purposes */
+}
+
+  /* Add more CSS rules as needed */
