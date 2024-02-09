@@ -1,85 +1,126 @@
 /* Variables */
 :root {
     /* Primary color */
-    --clr-primary: #260101; /* Main text color */
-    --clr-primary-light: #6a0606; /* Lighter shade of primary */
-    --clr-primary-dark: #1a0000; /* Darker shade of primary */
+    --clr-primary-100: #260101; /* Main text color */
+    --clr-primary-200: #6a0606; /* Lighter shade of primary */
+    --clr-primary-300: #1a0000; /* Darker shade of primary */
 
     /* Secondary color */
-    --clr-secondary: #275950; /* Secondary text color */
-    --clr-secondary-light: #5b7c74; /* Lighter shade of secondary */
-    --clr-secondary-dark: #1c3d37; /* Darker shade of secondary */
+    --clr-secondary-100: #275950; /* Secondary text color */
+    --clr-secondary-200: #5b7c74; /* Lighter shade of secondary */
+    --clr-secondary-300: #1c3d37; /* Darker shade of secondary */
 
     /* Accent color */
-    --clr-accent: #ff9800; /* Accent color */
-    --clr-accent-light: #ffbe59; /* Lighter shade of accent */
-    --clr-accent-dark: #c66900; /* Darker shade of accent */
+    --clr-accent-100: #ff9800; /* Accent color */
+    --clr-accent-200: #ffbe59; /* Lighter shade of accent */
+    --clr-accent-300: #c66900; /* Darker shade of accent */
 
     /* Background color */
     --clr-background: #f0f0f0; /* Background color */
 
     /* Secondary background color to differentiate sections */
-    --secondary-background-color: #DBE7C9;
-    --secondary-background-color-light: #f2f7e2; /* Lighter shade of secondary background */
-    --secondary-background-color-dark: #bacb9c; /* Darker shade of secondary background */
+    --secondary-background-color-100: #DBE7C9;
+    --secondary-background-color-200: #f2f7e2; /* Lighter shade of secondary background */
+    --secondary-background-color-300: #bacb9c; /* Darker shade of secondary background */
 
     /* Secondary text color */
-    --secondary-text-color: #50623A;
-    --secondary-text-color-light: #8a9f78; /* Lighter shade of secondary text color */
-    --secondary-text-color-dark: #364826; /* Darker shade of secondary text color */
+    --secondary-text-color-100: #50623A;
+    --secondary-text-color-200: #8a9f78; /* Lighter shade of secondary text color */
+    --secondary-text-color-300: #364826; /* Darker shade of secondary text color */
 
     /* Additional accent color */
-    --accent-color: #50623A;
-    --accent-color-light: #8a9f78; /* Lighter shade of accent color */
-    --accent-color-dark: #364826; /* Darker shade of accent color */
+    --accent-color-100: #50623A;
+    --accent-color-200: #8a9f78; /* Lighter shade of accent color */
+    --accent-color-300: #364826; /* Darker shade of accent color */
 }
 
 /* Utility Classes */
 .text-primary {
-    color: var(--clr-primary);
+    color: var(--clr-primary-100);
+}
+
+.text-primary-light {
+    color: var(--clr-primary-200);
+}
+
+.text-primary-dark {
+    color: var(--clr-primary-300);
 }
 
 .text-secondary {
-    color: var(--clr-secondary);
+    color: var(--clr-secondary-100);
+}
+
+.text-secondary-light {
+    color: var(--clr-secondary-200);
+}
+
+.text-secondary-dark {
+    color: var(--clr-secondary-300);
 }
 
 .text-accent {
-    color: var(--clr-accent);
+    color: var(--clr-accent-100);
+}
+
+.text-accent-light {
+    color: var(--clr-accent-200);
+}
+
+.text-accent-dark {
+    color: var(--clr-accent-300);
 }
 
 .bg-primary {
-    background-color: var(--clr-primary);
+    background-color: var(--clr-primary-100);
+}
+
+.bg-primary-light {
+    background-color: var(--clr-primary-200);
+}
+
+.bg-primary-dark {
+    background-color: var(--clr-primary-300);
 }
 
 .bg-secondary {
-    background-color: var(--clr-secondary);
+    background-color: var(--clr-secondary-100);
+}
+
+.bg-secondary-light {
+    background-color: var(--clr-secondary-200);
+}
+
+.bg-secondary-dark {
+    background-color: var(--clr-secondary-300);
 }
 
 .bg-accent {
-    background-color: var(--clr-accent);
+    background-color: var(--clr-accent-100);
+}
+
+.bg-accent-light {
+    background-color: var(--clr-accent-200);
+}
+
+.bg-accent-dark {
+    background-color: var(--clr-accent-300);
 }
 
 .bg-secondary-background-color {
-    background-color: var(--secondary-background-color);
+    background-color: var(--secondary-background-color-100);
 }
 
 .bg-secondary-background-color-light {
-    background-color: var(--secondary-background-color-light);
+    background-color: var(--secondary-background-color-200);
 }
 
 .bg-secondary-background-color-dark {
-    background-color: var(--secondary-background-color-dark);
+    background-color: var(--secondary-background-color-300);
 }
 
 /* Section Styles */
 .section {
-    background-color: var(--secondary-background-color);
-    color: var(--secondary-text-color);
+    background-color: var(--secondary-background-color-100);
+    color: var(--secondary-text-color-100);
 }
-
-.accent {
-    color: var(--accent-color);
-    /* accent color for various purposes */
-}
-
-/* Add more CSS rules as needed */
